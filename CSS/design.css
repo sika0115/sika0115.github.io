@@ -1,0 +1,84 @@
+/*サイトタイトル*/
+html {
+    background-color: floralwhite;
+}
+header h1{
+    font-size:120%; /*フォントサイズの調整*/
+    color:#313131; /*文字色の変更*/
+    padding-top: 10px; /*文字上部に余白*/
+    padding-bottom: 10px; /*文字下部に余白*/
+    padding-left: 20px; /*文字左側に余白*/
+    padding-right: 20px; /*文字右側に余白*/
+    border:1px solid #313131; /*文字の周りに線を描く*/
+    border-radius: 5px; /*線の角に丸みを付ける*/
+    letter-spacing: 3px; /*文字と文字の間隔をあける*/
+    font-weight:400; /*文字の太さの変更*/
+}
+
+/*ブランディング*/
+#branding{
+    /*width: 60%; /*横幅指定*/
+    /*margin-left: 20%; /*左端から20%右側に動かす*/
+    background-color: #313131; /*背景色の指定*/
+    overflow: hidden; /*おまじない*/
+}
+#branding p{
+    color: #fff; /*文字色の変更*/
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 10px; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-left: 3%; /*文字の左側に余白をあける*/
+}
+
+/*ナビゲーション*/
+nav{
+    width: 100%;    /*横幅の指定*/
+    border-top: 1px solid #313131;   /*上部の線の色を指定*/
+    border-bottom: 1px solid #313131;    /*下部の線の色を指定*/
+    margin-bottom: 5px; /**/
+    overflow: hidden;   /*おまじない*/
+}
+nav ul{
+    width: 60%; /*横幅の指定*/
+    /*margin-left: 20%;   /*左端から20%右側に動かす*/
+}
+nav li{
+    width: calc(25% - 2px); /*横幅の指定（線の分をマイナスする）*/
+    border-left: 1px solid #313131;  /*線を描く*/
+    text-align: center; /*文字を中央に*/
+    float: left;    /*左から並べる*/
+}
+nav li:last-child{
+    border-right: 1px solid #313131; /*li要素の最後の物は右側に線を描く*/
+}
+nav a{
+    display: block; /*1つのli全体にリンクを有効にする*/
+    text-decoration: none;  /*ブラウザ標準のリンク装飾をオフに*/
+    color:#313131;  /*文字色の変更*/
+    font-size: 110%;    /*フォントサイズの指定*/
+    letter-spacing: 5px;    /*文字と文字の間隔をあける*/
+    font-weight: 400;   /*文字の太さを調整*/
+    line-height: 45px;  /*行間の指定（ナビボタンの高さ指定）*/
+}
+nav a:hover{
+    background-color: rgb(112, 112, 112);   /*背景色の指定*/
+    color: #fff;    /*文字色の変更*/
+    transition: 0.5s;   /*ホバー時の動きをなめらかにする*/
+}
+
+/*フッター*/
+footer{
+    font-size: 80%; /*フォントサイズの指定*/
+    width: 100%;    /*横幅の指定*/
+    /*text-align: center; /*文字の中央寄せ*/
+    padding-top: 10px;  /*文字上部の余白指定*/
+    padding-bottom: 10px;   /*文字下部の余白指定*/
+    background-color: #313131;  /*背景色の指定*/
+    
+}
+footer address{
+    color: #fff;    /*文字色の指定*/
+    letter-spacing: 5px;    /*文字と文字の間隔をあける*/
+    font-style: normal; /*文字の斜体を取り消す*/
+    margin-left: 2%;
+}
