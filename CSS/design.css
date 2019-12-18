@@ -66,6 +66,19 @@ nav a:hover{
     transition: 0.5s;   /*ホバー時の動きをなめらかにする*/
 }
 
+img.ghimg{
+    width: 120px;
+    height: 120px;
+}
+img.fbimg{
+    width: 120px;
+    height: 120px;
+}
+img.twiimg{
+    width: 120px;
+    height: 120px;
+}
+
 /*フッター*/
 footer{
     font-size: 80%; /*フォントサイズの指定*/
